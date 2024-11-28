@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fansite dédié à Lionel Messi, l'un des plus grands joueurs de football de tous les temps.">
+    <title>Fansite de Lionel Messi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0edfa;
+            color: #333;
+        }
+        header {
+            background-color: #0270d1;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            background-color: #01579b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 3rem;
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0288d1;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 200px; /* Largeur fixe pour les images */
+            height:300px; /* Hauteur égale à la largeur pour un effet carré */
+            object-fit: cover; /* Remplir l'espace sans déformation */
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video-container {
+            margin: 3rem 0;
+            text-align: center;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 900px;
+            height: 500px;
+            border: none;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #01579b;
+            color: white;
+        }
+        .social-links, .fan-sites {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .social-links a, .fan-sites a {
+            color: #0288d1;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .social-links a:hover, .fan-sites a:hover {
+            text-decoration: underline;
+        }
+        .contact-form {
+            margin-top: 2rem;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #0288d1;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #01579b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fansite de Lionel Messi</h1>
+        <p>Le plus grand joueur de football de tous les temps</p>
+    </header>
+
+    <nav>
+        <a href="#biographie">Biographie</a>
+        <a href="#palmares">Palmarès</a>
+        <a href="#photos">Photos</a>
+        <a href="#video">Vidéo</a>
+        <a href="#fan-sites">Sites de Fans</a>
+        <a href="#social-media">Réseaux Sociaux</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="biographie">
+        <h2>Biographie</h2>
+        <p>
+            Né à Rosario, en Argentine, Lionel Messi a débuté sa carrière au FC Barcelone, où il est devenu une légende. 
+            Avec son talent exceptionnel et sa détermination, il a remporté de nombreux trophées, marquant l'histoire du football.
+        </p>
+    </section>
+
+    <section id="palmares">
+        <h2>Palmarès</h2>
+        <ul>
+            <li>7 Ballons d'Or</li>
+            <li>4 Ligues des Champions</li>
+            <li>1 Coupe du Monde (2022)</li>
+            <li>1 Copa América (2021)</li>
+        </ul>
+    </section>
+
+    <section id="photos">
+        <h2>Photos</h2>
+        <div class="gallery">
+            <img src="C:\Users\moko4\Pictures\image3.jpg" alt="Lionel Messi sur le terrain">
+            <img src="C:\Users\moko4\Pictures\il_570xN.5928617947_3hdg.webp" alt="Lionel Messi avec la Coupe du Monde">
+        </div>
+    </section>
+
+    <section id="video">
+        <h2>Vidéo</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="C:\Users\moko4\Videos\Le but fou de Messi en finale de la Coupe du Roi 2015 !.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section id="fan-sites">
+        <h2>Liens vers des Sites de Fans</h2>
+        <div class="fan-sites">
+            <a href="https://www.messifanpage.com/" target="_blank">Messi Gallery</a>
+            <a href="https://leomessifanclub.ucoz.net/" target="_blank">Messi Fan Club</a>
+            <a href="https://www.themessistore.com/?srsltid=AfmBOoqiSRBjKBfjJ17zKoVuUpkj_DXKo8RHVoV4wZHqTgQ0vR4gmIO8" target="_blank">Lionel Messi Fan Page</a>
+        </div>
+    </section>
+
+    <section id="social-media">
+        <h2>Suivez Lionel Messi sur les Réseaux Sociaux</h2>
+        <div class="social-links">
+            <a href="https://twitter.com/messi" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/leomessi/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/lionelmessi" target="_blank">Facebook</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-form">
+            <form action="mailto:contact@messifansite.com" method="post" enctype="text/plain">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
